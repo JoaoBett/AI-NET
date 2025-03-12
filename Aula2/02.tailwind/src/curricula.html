@@ -10,9 +10,9 @@
 </head>
 
 <body class="font-sans antialiased">
-    <div class="min-h-screen bg-gray-100">
+    <div class="min-h-screen bg-gray-100 dark:bg-gray-800">
         <!-- Navigation Menu -->
-        <nav class="bg-white border-b border-gray-100">
+        <nav class="bg-white border-b border-gray-100 dark:bg-gray-900 dark:border-gray-800">
             <!-- Navigation Menu Full Container -->
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <!-- Logo + Menu Items + Hamburger -->
@@ -20,7 +20,7 @@
                     <!-- Logo -->
                     <div class="shrink-0 -ms-4">
                         <a href="./index.html">
-                            <img src="./img/politecnico_h.svg" class="h-16 w-auto" />
+                            <div class="h-16 w-40 bg-cover bg-logo-light dark:bg-logo-dark"></div>
                         </a>
                     </div>
 
@@ -29,19 +29,15 @@
                         class="grow flex flex-col sm:flex-row items-stretch invisible h-0 sm:visible sm:h-auto">
                         <!-- Menu Item: Introduction -->
                         <div class="flex me-0 sm:me-2">
-                            <a class="grow inline-flex items-center h-16 px-3 pt-1
- text-sm font-medium text-gray-500
- border-b-2 border-transparent
- hover:border-gray-300 hover:text-gray-700
- focus:outline-none focus:border-gray-300 focus:text-gray-700
- hover:bg-gray-100 sm:hover:bg-white" href="./index.html">
+                            <a class="grow inline-flex items-center h-16 px-3 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700 focus:outline-none focus:border-gray-300 focus:text-gray-700 hover:bg-gray-100 sm:hover:bg-white" href="./index.html">
                                 Introduction
                             </a>
                         </div>
 
                         <!-- Menu Item: Courses -->
                         <div class="flex me-0 sm:me-2">
-                            <a class="grow inline-flex items-center h-16 px-3 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700 focus:outline-none focus:border-gray-300 focus:text-gray-700 hover:bg-gray-100 sm:hover:bg-white"
+                            <a class="grow inline-flex items-center h-16 px-3 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700 focus:outline-none focus:border-gray-300 focus:text-gray-700 hover:bg-gray-100 sm:hover:bg-white
+                            dark:text-gray-400  dark:hover:border-gray-700  dark:hover:text-gray-300 dark:focus:border-gray-700 dark:focus:text-gray-300  dark:hover:bg-gray-800 dark:sm:hover:bg-gray-900"
                                 href="./courses.html">
                                 Courses
                             </a>
@@ -49,11 +45,7 @@
 
                         <!-- Menu Item: Curricula -->
                         <div class="relative sm:static group flex flex-col me-0 sm:me-2">
-                            <button id="button_curricula" class="grow inline-flex items-center
- h-16 px-3 pt-1
- text-sm font-medium text-gray-900
- border-b-2 border-indigo-400
- focus:outline-none focus:border-indigo-700">
+                            <button id="button_curricula" class="grow inline-flex items-center h-16 px-3 pt-1 text-sm font-medium text-gray-900 border-b-2 border-indigo-400 focus:outline-none focus:border-indigo-700 dark:text-gray-100">
                                 <div>Curricula</div>
                                 <div>
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
